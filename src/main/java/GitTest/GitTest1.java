@@ -9,12 +9,18 @@ public class GitTest1 {
     }
 }
 class Animal{
-   private void run(){
-        System.out.println("Animals is running");
-    }
     public static void main(String[]args){
        Animal animal=new Animal();
        animal.run();
+    }
+
+   private void run(){
+        System.out.println("Animals is running");
+    }
+}
+class GitTest{
+    public static void main(String[]args){
+        System.out.println("This is the main file, just checking whether it is updating or not");
     }
 }
 
