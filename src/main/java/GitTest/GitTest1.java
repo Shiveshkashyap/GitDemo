@@ -8,5 +8,13 @@ public class GitTest1 {
         System.out.println("So the next person will come and take the latest changes which i made");
     }
 }
-
+class Animal{
+   private void run(){
+        System.out.println("Animals is running");
+    }
+    public static void main(String[]args){
+       Animal animal=new Animal();
+       animal.run();
+    }
+}
 
